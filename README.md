@@ -1,6 +1,10 @@
 Smart Home Monitoring System Using Google Cloud Platform
+
 Project Overview
+
+
 This project demonstrates an IoT-based Smart Home Monitoring System leveraging Google Cloud Platform (GCP), MongoDB, MQTT protocol, and Arduino-based IoT devices. The system monitors temperature, humidity, motion, and smoke levels using sensors and processes the data for real-time analysis and storage.
+
 
 Features:
 Sensor data collection using Arduino IoT devices.
@@ -31,22 +35,17 @@ SSH client (e.g., PuTTY) for connecting to your cloud instance.
 Repository Structure
 
 homeManagement/
+homeManagement/
 ├── config/
-
 │   ├── mongod.conf               # MongoDB local configuration
-
 │   ├── mongodb-atlas.config      # MongoDB Atlas connection settings
-
 │   ├── mosquitto.conf            # MQTT broker TLS/SSL settings
-
 │   ├── rbac-config.json          # RBAC configuration for GCP services
-
 ├── MongoScript/
-				│   ├── ingest_mqtt_to_mongodb.py # Python script to ingest MQTT data to MongoDB
-		
+│   ├── ingest_mqtt_to_mongodb.py # Python script to ingest MQTT data to MongoDB
 ├── homeManagement.ino            # Arduino code for the IoT device
-
 └── README.md                     # Documentation for the project
+
 Getting Started
 1. Clone the Repository
 Set up the project by cloning the repository:
