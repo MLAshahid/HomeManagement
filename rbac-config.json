@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "bindings": [
+      {
+        "role": "roles/pubsub.subscriber",
+        "members": [
+          "serviceAccount:my-backend-service@my-project.iam.gserviceaccount.com"
+        ]
+      },
+      {
+        "role": "roles/cloudfunctions.invoker",
+        "members": [
+          "serviceAccount:my-backend-service@my-project.iam.gserviceaccount.com"
+        ]
+      },
+      {
+        "role": "roles/datastore.viewer",
+        "members": [
+          "serviceAccount:my-backend-service@my-project.iam.gserviceaccount.com"
+        ]
+      }
+    ]
+  }
+  
