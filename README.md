@@ -32,13 +32,20 @@ Repository Structure
 
 homeManagement/
 ├── config/
+
 │   ├── mongod.conf               # MongoDB local configuration
+
 │   ├── mongodb-atlas.config      # MongoDB Atlas connection settings
+
 │   ├── mosquitto.conf            # MQTT broker TLS/SSL settings
+
 │   ├── rbac-config.json          # RBAC configuration for GCP services
+
 ├── MongoScript/
-│   ├── ingest_mqtt_to_mongodb.py # Python script to ingest MQTT data to MongoDB
+				│   ├── ingest_mqtt_to_mongodb.py # Python script to ingest MQTT data to MongoDB
+		
 ├── homeManagement.ino            # Arduino code for the IoT device
+
 └── README.md                     # Documentation for the project
 Getting Started
 1. Clone the Repository
